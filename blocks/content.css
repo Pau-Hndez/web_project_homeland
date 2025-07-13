@@ -1,0 +1,192 @@
+.content {
+    margin: 91.06px 148px auto;
+
+}
+.content__lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.content__lead__title {
+    width: 720px;
+    line-height: 100px;
+    margin: 0;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 96px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+.content__lead__subtitle {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    width: 720px;
+    height: 72px;
+    padding-bottom: 64px;
+}
+.content__lead__image {
+    width: 984px;
+    height: 615px;
+
+}
+.content__intro {
+    max-width: 830px;
+    max-height: 607px;
+    margin-top: 92px;
+    margin-right: 302px;
+    
+}
+.content__intro__title {
+ font-family: 'Inter';
+ font-size: 54px;
+ font-weight: 900;
+ line-height: 58px;
+ text-align: left;
+ margin-bottom: 39.98px;
+
+}
+.content__intro__cuote {
+ font-family: 'Inter';
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 34px;
+ padding-right: 92px;
+ margin-bottom: 10px;
+}
+.content__intro__author {
+ font-family: 'Inter';
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 34px;
+ text-align: right;
+
+}
+.content__intro__description {
+ font-family: 'Inter';
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 163%;
+ text-align: left;
+ max-width: 722px;
+ max-height: 181.54px;
+ margin-right: 108px;
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+    max-width: 768px;
+    
+    }
+    .header {
+    max-width: 254px;
+    max-height: 66px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    }
+    .content {
+    margin: 0;
+    }
+    .content__lead__title {
+    width: 530px;
+    line-height: 79px;
+    margin: 0;
+    display: flex;
+    height: 158px;
+    font-size: 75px;
+    padding-bottom: 25px;
+    }
+    .content__lead__subtitle {
+    padding-bottom: 24px;
+    }
+    .content__lead__image {
+    width: 768px;
+    height: 480px;
+    }
+    .content__intro {
+    max-width: 720px;
+    max-height: 573px;
+    margin: 90px 24px 88px;
+
+    }
+    .content__intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    padding-bottom: 50px;
+    margin: 0;
+   }
+
+   .content__intro__description {
+    max-width: 720px;
+    max-height: 182px;
+   }
+  
+}
+@media screen and (max-width: 320px) {
+    .page {
+    max-width: 320px;
+    }
+    .header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    }
+    .header__logo {
+    max-width: 188px;
+    max-height: 52px;
+    }
+    .content {
+    margin: 0;
+    }
+    .content__lead__title {
+    width: 228px;
+    line-height: 44px;
+    margin: 0;
+    height: 88px;
+    font-size: 40px;
+    padding-bottom: 16px;
+    }
+    .content__lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    width: 288px;
+    height: 40px;
+    padding-bottom: 40px;
+    }
+    .content__lead__image {
+    width: 320px;
+    height: 200px;
+    }
+    .content__intro {
+    max-width: 288px;
+    max-height: 1033px;
+    margin: 64px 16px;
+    }
+    .content__intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    padding-bottom: 40px;
+    }
+    .content__intro__cuote {
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    }
+    .content__intro__author {
+    margin: 0;
+    padding-bottom: 32px;
+    }
+    .content__intro__description {
+    max-width: 288px;
+    max-height: 442px;
+    margin: 0;
+    }
+    .footer {
+    line-height: 14px;
+    }
+}
