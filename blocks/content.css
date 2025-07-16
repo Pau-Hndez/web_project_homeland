@@ -8,7 +8,7 @@
     align-items: center;
     
 }
-.content__lead__title {
+.content__lead_title {
     width: 720px;
     line-height: 100px;
     margin: 0;
@@ -19,7 +19,7 @@
     padding-bottom: 32px;
     font-weight: 900;
 }
-.content__lead__subtitle {
+.content__lead_subtitle {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 30px;
@@ -27,26 +27,28 @@
     text-align: center;
     width: 720px;
     padding-bottom: 64px;
+    margin: auto;
 }
-.content__lead__image {
+.content__lead_image {
     width: 984px;
     height: 615px;
+    padding-bottom: 92px;
 
 }
 .content__intro {
     max-width: 830px;
-    margin-top: 92px;
-       
+           
 }
-.content__intro__title {
+.content__intro_title {
  font-family: 'Inter';
  font-size: 54px;
  font-weight: 900;
  line-height: 58px;
- margin-bottom: 39.98px;
+ padding-bottom: 39.98px;
+ margin: auto;
 
 }
-.content__intro__cuote {
+.content__intro_cuote {
  font-family: 'Inter';
  font-size: 24px;
  font-weight: 400;
@@ -54,15 +56,16 @@
  padding-right: 92px;
  
 }
-.content__intro__author {
+.content__intro_author {
  font-family: 'Inter';
  font-size: 24px;
  font-weight: 400;
  line-height: 34px;
  text-align: right;
+ width: 732px;
 
 }
-.content__intro__description {
+.content__intro_description {
  font-family: 'Inter';
  font-size: 16px;
  font-weight: 400;
@@ -76,38 +79,42 @@
     .content {
     margin: 0;
     }
-    .content__lead__title {
+    .content__lead_title {
     width: 530px;
     line-height: 79px;
     margin: 0;
-    display: flex;
-    height: 158px;
     font-size: 75px;
     padding-bottom: 25px;
     }
-    .content__lead__subtitle {
-    padding-bottom: 24px;
+    .content__lead_subtitle {
+    padding-bottom: 30px;
     }
-    .content__lead__image {
+    .content__lead_image {
     width: 768px;
     height: 480px;
     }
     .content__intro {
     max-width: 720px;
-    max-height: 573px;
-    margin: 90px 24px 88px;
-
+    margin: 0 24px;
+    
     }
-    .content__intro__title {
+    .content__intro_cuote {
+    margin: 0;
+    }
+    .content__intro_title {
     font-size: 45px;
     line-height: 49px;
     padding-bottom: 50px;
     margin: 0;
+    width: 707px;
    }
-
-   .content__intro__description {
+   .content__intro_author {
+    margin: 0;
+   }
+   .content__intro_description {
     max-width: 720px;
-    max-height: 182px;
+    margin: 0;
+    padding-top: 32px;
    }
   
 }
@@ -140,22 +147,22 @@
     max-height: 1033px;
     margin: 64px 16px;
     }
-    .content__intro__title {
+    .content__intro_title {
     font-size: 32px;
     font-weight: 900;
     line-height: 35px;
     padding-bottom: 40px;
     }
-    .content__intro__cuote {
+    .content__intro_cuote {
     line-height: 30px;
     margin: 0;
     padding: 0;
     }
-    .content__intro__author {
+    .content__intro_author {
     margin: 0;
     padding-bottom: 32px;
     }
-    .content__intro__description {
+    .content__intro_description {
     max-width: 288px;
     max-height: 442px;
     margin: 0;
