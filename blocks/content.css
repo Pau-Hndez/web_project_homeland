@@ -116,7 +116,7 @@
     .content {
     margin: 0;
     }
-    .content__lead__title {
+    .content__lead_title {
     width: 228px;
     line-height: 44px;
     margin: 0;
@@ -124,14 +124,14 @@
     font-size: 40px;
     padding-bottom: 16px;
     }
-    .content__lead__subtitle {
+    .content__lead_subtitle {
     font-size: 16px;
     line-height: 20px;
     width: 288px;
     height: 40px;
     padding-bottom: 40px;
     }
-    .content__lead__image {
+    .content__lead_image {
     width: 320px;
     height: 200px;
     }
