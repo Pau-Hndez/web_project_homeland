@@ -141,11 +141,12 @@
     .content__lead_image {
     width: 320px;
     height: 200px;
+    padding-bottom: 64px;
     }
     .content__intro {
     max-width: 288px;
     max-height: 1033px;
-    margin: 64px 16px;
+    
     }
     .content__intro_title {
     font-size: 32px;
@@ -165,7 +166,7 @@
     .content__intro_description {
     max-width: 288px;
     max-height: 442px;
-    margin: 0;
+    padding: 0;
     }
    
 }
