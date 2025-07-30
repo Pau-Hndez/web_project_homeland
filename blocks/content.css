@@ -37,6 +37,7 @@
 }
 .content__intro {
     max-width: 830px;
+    margin-left: 148px;
            
 }
 .content__intro_title {
@@ -54,6 +55,7 @@
  font-weight: 400;
  line-height: 34px;
  padding-right: 92px;
+ margin: auto;
  
 }
 .content__intro_author {
@@ -71,6 +73,7 @@
  font-weight: 400;
  line-height: 163%;
  max-width: 722px;
+ margin: 0;
  
 }
 
@@ -168,5 +171,5 @@
     max-height: 442px;
     padding: 0;
     }
-   
+    
 }

@@ -1,0 +1,75 @@
+.cities {
+ margin: 92px 148px 90px 145px;
+ 
+}
+.cities__article {
+ margin: 0;
+ display: grid;
+ grid-template-columns: 460px 1fr;
+ grid-template-rows: auto auto 1fr;
+ grid-gap: 48px 40px;
+ grid-template-areas: 
+  'title author'
+  'photo text'
+  'button text';
+ padding-bottom: 80px;
+}
+.cities__title {
+ font-family: 'Inter';
+ font-size: 72px;
+ font-weight: 900;
+ line-height: 76px;
+ margin: auto;
+ grid-area: title;
+}
+.cities__author {
+ grid-area: author;
+ width: 456px;
+ height: 67px;
+ padding-top: 85px;
+ 
+}
+.cities__author_title {
+ font-family: 'Inter';
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 100%;
+ margin: 0;
+ padding-bottom: 8px;
+ color: #AAAAAA;
+ letter-spacing: 12%;
+}
+.cities__author_artists {
+ font-family: 'Inter';
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 22px;
+ margin: 0;
+}
+.cities__photo {
+ grid-area: photo;
+ width: 460px;
+ height: 460px;
+ margin: 0; 
+}
+.cities__description {
+ grid-area: text;
+
+}
+.cities__paragraph {
+ font-family: 'Inter';
+ font-size: 18px;
+ line-height: 163%;
+
+}
+.cities__button {
+grid-area: button;
+font-family: 'Inter';
+font-size: 18px;
+color: #FFFFFF;
+background-image: linear-gradient(to right, #0278FE, #003A7B);
+width: 289px;
+height: 48px;
+border-radius: 4px;
+box-shadow: 5px 5px 10% #00000040;
+}

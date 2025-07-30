@@ -1,0 +1,18 @@
+.photo-grid {
+ margin: 118px 43px 92px 53px;
+ width: 1184px;
+ height: 442px;
+ 
+}
+.photo-grid_list {
+ display: grid;
+ list-style-type: none;
+ grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+ margin: 0;
+ padding: 0;
+ gap: 16px;
+}
+.photo-grid__item {
+    width: 284px;
+    height: 213;
+}
