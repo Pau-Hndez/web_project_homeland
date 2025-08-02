@@ -125,6 +125,7 @@
   
     .content {
     margin: 0;
+    max-width: 320px;
     }
     .content__lead_title {
     width: 228px;
